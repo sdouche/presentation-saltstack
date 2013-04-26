@@ -1,0 +1,17 @@
+{
+        "title": "Saltstack",
+        "author": "Sébastien Douche",
+        "theme": "memories",
+        "duration": 55,
+        "sections": {
+		"scm": "Software Configuration Management",
+		"intro": "Salt",
+		"states": "States",
+		"grains": "Grains",
+		"pillar": "Pillar",
+		"modules": "Modules",
+		"misc": "Divers",
+		"api": "API",
+		"virt": "Virtualisation"
+        	}
+}
