@@ -3,19 +3,13 @@
 
 On peut choisir de récupérer les infos en :
 
-* no_return
-* grains
 * yaml
-* overstatestage
 * json
 * pprint
 * nested
 * raw
-* highstate
 * quiet
-* key
-* txt
-* virt_query
+* ...
 
 !SLIDE
 # Returner

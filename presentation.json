@@ -2,7 +2,7 @@
         "title": "Saltstack",
         "author": "Sébastien Douche",
         "theme": "memories",
-        "duration": 55,
+        "duration": 25,
         "sections": {
 		"scm": "Software Configuration Management",
 		"intro": "Salt",

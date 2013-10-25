@@ -20,7 +20,7 @@ Licence Apache 2.0
 * Le shell
 
 !SLIDE
-# Technologie
+# Technologies
 
 * Python
 * YAML (configuration)
@@ -49,8 +49,8 @@ Coté client (Minion) :
 
 Coté serveur :
 
-* Accepter la clé (salt-key -A)
-* Test (salt '*' test.ping)
+* Accepter la clé ($ sudo salt-key -A)
+* Test ($ sudo salt '*' test.ping)
 
 !SLIDE
 # Canaux de communication
@@ -93,5 +93,4 @@ Appel de la fonction X du module Y :
 salt '*' test.ping
 salt '*' cmd.run ls '/'
 salt ’*’ cmd.exec_code python 'import sys; print sys.version'
-salt ’*’ pip.install salt timeout=5 upgrade=True
 ```

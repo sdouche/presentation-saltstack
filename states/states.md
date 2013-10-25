@@ -1,21 +1,16 @@
 !SLIDE
 # SaltStack States (SLS)
 
-Fichier contenant des états cibles, constitué de :
-
-* dictionnaire
-* liste
-* chaine de caractères
-* nombre
-
-!SLIDE
-# renderer
+Fichier contenant des états cibles
 
 Plusieurs sérialisation possible :
 
-* Jinja + YAML (défaut) / JSON
-* Mako + YAML / JSON
-* Wempy + YAML / JSON
+* Jinja + YAML (défaut)
+* Jinja + JSON
+* Mako + YAML
+* Mako + JSON
+* Wempy + YAML
+* Wempy + JSON
 * pydsl
 * pur Python
 
